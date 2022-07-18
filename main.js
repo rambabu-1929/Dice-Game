@@ -30,9 +30,9 @@ if (randomNumber2 == 1) {
 }
 
 if (randomNumber1>randomNumber2) {
-    document.querySelector('h2').innerHTML = '🏆 Player 1 wines ';
+    document.querySelector('h2').innerHTML = '🏆 Player 1 wins ';
 } else if (randomNumber1 < randomNumber2) {
-    document.querySelector('h2').innerHTML = 'Player 2 wines 🏆';
+    document.querySelector('h2').innerHTML = 'Player 2 wins 🏆';
 } else if (randomNumber1 = randomNumber2) {
     document.querySelector('h2').innerHTML = 'Match 🏆 Draw';
 }
